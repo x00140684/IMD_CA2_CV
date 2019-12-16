@@ -1,0 +1,248 @@
+
+body {
+  overflow-x: hidden;
+
+}
+
+
+.welcpage{
+	text-align: center;
+	font-size: 1.4em;
+}
+.WorkExperience {
+	margin-left: 1%;
+	font-size: 1.4em;
+}
+pre {
+	
+		background-color: white;
+	border-color: white;
+}
+
+#sidebar-wrapper {
+	
+  min-height: 100vh;
+    position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #111;
+    width: 160px;
+  overflow-x: hidden; 
+    height: 100%;
+  transition: 0.5s; 
+}
+
+#sidebar-wrapper .closebtn {
+	
+	position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 15px;
+ margin-left: 50px;
+ background-color: #f8f9fa;
+ 
+}
+.closeclosenav {
+	background-color: #f8f9fa;
+	padding-right: 8px;
+	
+}
+.openbtn {
+  font-size: 2em;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  margin-top: 0px;
+  border: none;
+  padding-right: 0em;
+  background-color: #f8f9fa;
+  
+}
+
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+   margin-left: 127px;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+  .imageContainer {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+
+
+.imagetext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fa-facebook{
+
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 80%;
+}
+.fa-twitter{
+
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 80%;
+}
+.fa-linkedin{
+
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 80%;
+}
+.info {
+ margin-left: 1%;
+    width: 45%;
+float: left;
+	font-size: 1.4em;
+
+}
+.skillsinfo {
+	margin-top: 3em;
+	padding-top: 0.1px;
+	font-size: 1.4em;
+}
+.references {
+	font-size: 1.4em;
+	margin-left : 1%;
+	
+}
+.projects {
+	
+	margin-left : 1%;
+}
+.info2 {
+	 padding-left: 50%;
+	 
+}
+
+
+
+
+ }
+ .skill {
+	  margin-left: 1%;
+	 
+ }
+ .btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+ .skillcont {
+	   margin-left: 1%;
+	 
+ }
+* {box-sizing:border-box}
+
+
+.container {
+  width: 100%; 
+  background-color: #ddd;
+  margin-left: 1%;
+  padding-left: 0px;
+    border-radius:90px;
+-moz-border-radius:90px;
+-webkit-border-radius:90px;
+}
+
+.skills {
+	
+  text-align: center;
+  padding-top: 3px; 
+  padding-bottom: 3px; 
+  color: white; 
+  border-radius:90px;
+-moz-border-radius:90px;
+-webkit-border-radius:90px;
+  
+}
+
+/* Progress bars for Year 1 and Year 2*/
+.soft1 {width: 73%; background-color: #2196F3;} 
+.soft2 {width: 58.38%; background-color: #2196F3;} 
+.anal {width: 50.6%; background-color: #2196F3;}
+.buss {width: 64%; background-color: #2196F3;}
+.oper {width: 90%; background-color: #2196F3;} 
+.arch {width: 60%; background-color: #2196F3;}
+.web {width: 58%; background-color: #2196F3;} 
+.math {width: 50.12%; background-color: #2196F3;} 
+.learn {width: 76%; background-color: #2196F3;} 
+.comm {width: 70.53%; background-color: #2196F3;}
+.stats {width: 35.8%; background-color: #2196F3;} 
+.data {width: 72%; background-color: #2196F3;} 
+.oper {width: 64.87%; background-color: #2196F3;} 
+
+.soft3 {width: 50%; background-color: #2196F3;} 
+.soft4 {width: 50%; background-color: #2196F3;} 
+.anal2 {width: 50.7%; background-color: #2196F3;} 
+.proj {width: 53%; background-color: #2196F3;} 
+.mngmt {width: 59.3%; background-color: #2196F3;} 
+.secu {width: 50%; background-color: #2196F3;}
+.web2 {width: 60%; background-color: #2196F3;} 
+.math2 {width: 44.5%; background-color: #2196F3;} 
+.test {width: 57.9%; background-color: #2196F3;} 
+.net {width: 61.6%; background-color: #2196F3;}
+.net2 {width: 73%; background-color: #2196F3;}
+.data2 {width: 46%; background-color: #2196F3;}
+
+
+.socialmedia {
+	
+	
+}
+
+}
